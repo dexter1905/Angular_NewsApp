@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="center-align">
+  <h1>
+    {{ title }}
+  </h1>
+
+  <br>
+
+</div>
+
+<div class="row">
+
+  <news-item-container *ngFor="let source of sources" [source]="source"></news-item-container>
+
+</div>
+
